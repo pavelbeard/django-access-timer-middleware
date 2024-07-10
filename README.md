@@ -1,6 +1,6 @@
 # django-access-timer-middleware
 
-Access timer middlware is a middleware which allow to control access to some paths, like
+Access timer middleware is a middleware which allow to control access to some paths, like
 /api/, /admin/ and what you want!
 
 
@@ -36,10 +36,10 @@ And then:
 python manage.py makemigrations
 python manage.py migrate
 ```
+## description
 
-## How to use?
-
-The default access time to endpoints is 1 hour.
+The default access time to endpoints is 1 hour. <br/>
+After expiring access time you won't get some endpoint, then you will receive error 403.<br/>
 That value you can change in admin panel.
 Available the next values:
 <ul>
@@ -50,7 +50,9 @@ Available the next values:
     <li>2 weeks</li>
 </ul>
 
-Next, in settings you should to set a one of two constants:
+## How to use?
+
+In settings.py you should to set a one of two constants:
 
 
 
