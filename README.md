@@ -64,7 +64,7 @@ or...
 ```python
 EXCLUDED_PATHS = ['/api/stuff/login/', '/api/stuff/signup/', '/admin/']
 ```
-...path, which are excluded from it, but rest of the endpoints there are in checking.
+...paths, which are excluded from it, but rest of the endpoints there are in checking.
 
 Using those two constants at the same time will throw an exception.
 
