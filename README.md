@@ -73,7 +73,7 @@ Using those two constants at the same time will throw an exception.
 
 ## Version
 
-Current version: 1.0
+Current version: 1.1
 
 ## Updates
 

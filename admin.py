@@ -4,6 +4,7 @@ from django.contrib import admin
 
 from . import models
 
-@@admin.register(models.AccessTime)
+
+@admin.register(models.AccessTime)
 class Admin(admin.ModelAdmin):
     pass
